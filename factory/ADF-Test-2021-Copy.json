@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Test-2021-Copy",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a7a6e421-d3de-4c19-84c8-32dbe9edddcd",
+		"tenantId": "5f2a3cec-e177-48b0-bfbe-5679937cfafb"
+	}
+}
