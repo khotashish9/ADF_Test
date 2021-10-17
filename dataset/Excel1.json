@@ -17,7 +17,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "Tenant.csv",
-				"container": "blobstorage"
+				"container": "teststorage"
 			}
 		},
 		"schema": []
