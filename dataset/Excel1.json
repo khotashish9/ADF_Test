@@ -5,6 +5,12 @@
 			"referenceName": "AzureBlobLinkedService",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"tenant": {
+				"type": "string",
+				"defaultValue": "Sheet1"
+			}
+		},
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
