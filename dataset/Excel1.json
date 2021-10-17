@@ -13,10 +13,9 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
-			"sheetName": "Tenant",
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "Tenant.csv",
+				"fileName": "Tenant.xlsx",
 				"container": "teststorage"
 			}
 		},
