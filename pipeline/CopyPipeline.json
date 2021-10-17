@@ -16,11 +16,11 @@
 				"userProperties": [
 					{
 						"name": "Source",
-						"value": "blobstorage//Tenant.csv"
+						"value": "teststorage//Tenant.xlsx"
 					},
 					{
 						"name": "Destination",
-						"value": "dbo.emp"
+						"value": "dbo.Tenant_copy"
 					}
 				],
 				"typeProperties": {
