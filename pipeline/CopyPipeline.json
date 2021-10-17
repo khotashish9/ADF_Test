@@ -90,7 +90,7 @@
 			}
 		],
 		"parameters": {
-			"inputsheetname1": {
+			"inputsheetname": {
 				"type": "string",
 				"defaultValue": "tenant"
 			}
