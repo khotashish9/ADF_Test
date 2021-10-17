@@ -55,13 +55,9 @@
 			}
 		],
 		"parameters": {
-			"inputsheetname": {
-				"type": "string",
-				"defaultValue": "sheet1"
-			},
 			"inputsheetname1": {
 				"type": "string",
-				"defaultValue": "tenant1"
+				"defaultValue": "tenant"
 			}
 		},
 		"annotations": []
