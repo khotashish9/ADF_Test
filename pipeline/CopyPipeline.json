@@ -51,7 +51,7 @@
 						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference",
 						"parameters": {
-							"Datasheetname": "@(item().SQLTable)"
+							"Tablename": "@(item().SQLTable)"
 						}
 					}
 				]

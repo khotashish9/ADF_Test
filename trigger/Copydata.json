@@ -10,7 +10,7 @@
 					"type": "PipelineReference"
 				},
 				"parameters": {
-					"inputsheetname1": "Tenant"
+					"inputsheetname": "Tenant"
 				}
 			}
 		],
