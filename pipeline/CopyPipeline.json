@@ -33,7 +33,7 @@
 						"referenceName": "Excel1",
 						"type": "DatasetReference",
 						"parameters": {
-							"dynamicSheetName": "@pipeline().parameters.inputsheetname"
+							"dynamicSheetName": "@pipeline().parameters.inputsheetname1"
 						}
 					}
 				],
