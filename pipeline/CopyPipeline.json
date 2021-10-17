@@ -33,7 +33,7 @@
 						"referenceName": "Excel1",
 						"type": "DatasetReference",
 						"parameters": {
-							"tenant": "@pipeline().parameters.inputsheetname"
+							"inputsheetname": "@pipeline().parameters.inputsheetname"
 						}
 					}
 				],
@@ -45,6 +45,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"inputsheetname": {
+				"type": "string",
+				"defaultValue": "sheet1"
+			}
+		},
 		"annotations": []
 	}
 }
