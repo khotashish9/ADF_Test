@@ -16,13 +16,13 @@
 				"userProperties": [],
 				"typeProperties": {
 					"sink": {
-						"type": "SqlServerSink"
+						"type": "AzureSqlSink"
 					},
 					"enableStaging": false
 				},
 				"outputs": [
 					{
-						"referenceName": "SqlServerTable1",
+						"referenceName": "AzureSqlTable1",
 						"type": "DatasetReference"
 					}
 				]
