@@ -71,7 +71,7 @@
 							},
 							{
 								"source": {
-									"type": "String",
+									"type": "Int32",
 									"ordinal": 4
 								},
 								"sink": {
