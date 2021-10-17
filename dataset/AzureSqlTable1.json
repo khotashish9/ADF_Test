@@ -6,9 +6,8 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"Datasheetname": {
-				"type": "string",
-				"defaultValue": "Tenantcopy"
+			"Tablename": {
+				"type": "string"
 			}
 		},
 		"annotations": [],
