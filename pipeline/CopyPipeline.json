@@ -31,7 +31,10 @@
 				"inputs": [
 					{
 						"referenceName": "Excel1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"tenant": "@pipeline().parameters.inputsheetname"
+						}
 					}
 				],
 				"outputs": [
