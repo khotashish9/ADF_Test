@@ -17,7 +17,7 @@
 		"AzureKeyVault2_properties_typeProperties_baseUrl": {
 			"value": "https://testkvforsqlcopy.vault.azure.net/"
 		},
-		"Copydata_properties_CopyPipeline_parameters_inputsheetname1": {
+		"Copydata_properties_CopyPipeline_parameters_inputsheetname": {
 			"value": "Tenant"
 		},
 		"containerUri": {

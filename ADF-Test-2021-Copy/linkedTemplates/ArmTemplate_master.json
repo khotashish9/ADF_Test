@@ -23,7 +23,7 @@
 			"type": "string",
 			"defaultValue": "https://testkvforsqlcopy.vault.azure.net/"
 		},
-		"Copydata_properties_CopyPipeline_parameters_inputsheetname1": {
+		"Copydata_properties_CopyPipeline_parameters_inputsheetname": {
 			"type": "string",
 			"defaultValue": "Tenant"
 		},
@@ -66,8 +66,8 @@
 					"AzureKeyVault2_properties_typeProperties_baseUrl": {
 						"value": "[parameters('AzureKeyVault2_properties_typeProperties_baseUrl')]"
 					},
-					"Copydata_properties_CopyPipeline_parameters_inputsheetname1": {
-						"value": "[parameters('Copydata_properties_CopyPipeline_parameters_inputsheetname1')]"
+					"Copydata_properties_CopyPipeline_parameters_inputsheetname": {
+						"value": "[parameters('Copydata_properties_CopyPipeline_parameters_inputsheetname')]"
 					}
 				}
 			},
