@@ -15,8 +15,17 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
+					"sink": {
+						"type": "SqlServerSink"
+					},
 					"enableStaging": false
-				}
+				},
+				"outputs": [
+					{
+						"referenceName": "SqlServerTable1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
