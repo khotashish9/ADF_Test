@@ -7,7 +7,8 @@
 		},
 		"parameters": {
 			"Tablename": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "NewTable"
 			}
 		},
 		"annotations": [],
