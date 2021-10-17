@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"tenant": {
+			"inputsheetname": {
 				"type": "string",
 				"defaultValue": "Sheet1"
 			}
