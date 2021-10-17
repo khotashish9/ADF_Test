@@ -61,7 +61,7 @@
 			},
 			"inputsheetname1": {
 				"type": "string",
-				"defaultValue": "tenant"
+				"defaultValue": "tenant1"
 			}
 		},
 		"annotations": []
