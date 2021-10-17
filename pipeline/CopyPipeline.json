@@ -49,10 +49,7 @@
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference",
-						"parameters": {
-							"Tablename": "@(item().SQLTable)"
-						}
+						"type": "DatasetReference"
 					}
 				]
 			}
