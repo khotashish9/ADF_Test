@@ -1,0 +1,25 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"dynamicSheetName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Tenant",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Tenant.csv",
+				"container": "blobstorage"
+			}
+		},
+		"schema": []
+	}
+}

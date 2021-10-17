@@ -1,0 +1,27 @@
+{
+	"name": "Copydata",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"inputsheetname1": "Tenant"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2021-10-18T19:00:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
