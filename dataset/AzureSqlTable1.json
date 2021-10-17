@@ -12,33 +12,7 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [
-			{
-				"name": "Property_Code",
-				"type": "varchar"
-			},
-			{
-				"name": "Tenant_Code",
-				"type": "varchar"
-			},
-			{
-				"name": "Unit_Code",
-				"type": "varchar"
-			},
-			{
-				"name": "Status",
-				"type": "int",
-				"precision": 10
-			},
-			{
-				"name": "First_Name",
-				"type": "varchar"
-			},
-			{
-				"name": "Last_Name",
-				"type": "varchar"
-			}
-		],
+		"schema": [],
 		"typeProperties": {
 			"schema": "dbo",
 			"table": "Tenant_copy"
