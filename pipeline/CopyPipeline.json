@@ -84,7 +84,13 @@
 				"outputs": [
 					{
 						"referenceName": "AzureSqlTable1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"Datasheetname": {
+								"value": "@pipeline().parameters.inputsheetname",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
