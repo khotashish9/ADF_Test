@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"inputsheetname": {
+			"dynamicSheetName": {
 				"type": "string",
 				"defaultValue": "Sheet1"
 			}
