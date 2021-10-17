@@ -7,8 +7,7 @@
 		},
 		"parameters": {
 			"dynamicSheetName": {
-				"type": "string",
-				"defaultValue": "Sheet1"
+				"type": "string"
 			}
 		},
 		"annotations": [],
