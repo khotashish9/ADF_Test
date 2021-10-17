@@ -72,6 +72,20 @@
 								"type": "AzureSqlSink"
 							},
 							"enableStaging": false,
+							"enableSkipIncompatibleRow": true,
+							"logSettings": {
+								"enableCopyActivityLog": true,
+								"copyActivityLogSettings": {
+									"logLevel": "Warning",
+									"enableReliableLogging": false
+								},
+								"logLocationSettings": {
+									"linkedServiceName": {
+										"referenceName": "AzureBlobLinkedService",
+										"type": "LinkedServiceReference"
+									}
+								}
+							},
 							"translator": {
 								"type": "TabularTranslator",
 								"mappings": [
@@ -175,7 +189,8 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/Excel1')]",
-				"[concat(variables('factoryId'), '/datasets/AzureSqlTable1')]"
+				"[concat(variables('factoryId'), '/datasets/AzureSqlTable1')]",
+				"[concat(variables('factoryId'), '/linkedServices/AzureBlobLinkedService')]"
 			]
 		},
 		{
